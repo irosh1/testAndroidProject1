@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent();
         myIntent.setClass(MainActivity.this, UserDashboard.class);
 
-        if(uname.equals("kamal") &&  pword.equals("123"))
+        if(uname.equals("user") &&  pword.equals("123"))
         {
             myIntent.putExtra("TextValue", uname);
             startActivity(myIntent);
